@@ -1,0 +1,222 @@
+@font-face {
+    font-family:Humanist521BT-Roman;
+    src:url(../fonts/Humanist521BT-Roman.ttf);
+}
+@font-face {
+    font-family:Helvetica;
+    src:url(../fonts/Helvetica.ttf);
+}
+@font-face {
+    font-family:helvetica-neue-lt-std-roman;
+    src:url(../fonts/helvetica-neue-lt-std-roman.ttf);
+}
+@font-face {
+    font-family:Montserrat-SemiBold;
+    src:url(../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family:OpenSans-Regular;
+    src:url(../fonts/OpenSans-Regular.ttf);
+}
+body{background:#f0f0f0;}
+a{color:#000;}
+a:hover{text-decoration:none;color:#000;}
+*{font-size:15px;font-family:Helvetica;font-weight: lighter;}
+.inner-item{overflow:hidden;}
+.inner-item:hover img{transform: scale(1.1);transition: 1s;}
+.package-margin:hover .img-fluid{transform: scale(1.1);transition: 1s;}
+.package-margin:hover .budget img{transform: none;}
+
+/*Static Bar*/
+.staticbar{background:#be0117;padding:5px 0px;display: block;z-index: 9999;position: fixed;display: none;}
+.staticbar a{font-size:24px;font-weight: bold;color:#fff;}
+.staticbar a i{font-size:25px;}
+.staticbar a:hover{color:#f1ca0b;}
+
+/*Heading*/
+.heading {font-size:24px;font-family:Helvetica;font-weight:bold;color:#a12d05;background: url(../img/divider.png)no-repeat bottom center;text-align: center;padding-bottom:1px;margin-bottom: 20px;text-transform: uppercase;}
+.heading p{color:#000;text-transform: none;}
+.contentheading span{text-transform: uppercase;font-size:24px;font-family:Helvetica;color:#be0117;}
+.contentheading p{font-family:Helvetica;color:#be0117;font-size:24px;}
+.footerheading{font-size:16px;font-weight: bold;color:white; font-family:helvetica-neue-lt-std-roman;padding-bottom: 10px;margin-bottom:25px;background:url(../img/footer-divider.png)no-repeat left bottom;}
+.sidebar-heading{font-size:20px;color:#be0117;border-bottom: 2px solid #be0117;padding-bottom: 5px;font-weight: bold;margin-bottom: 20px;}
+.quoteform-heading{font-size:18px;color:#be0117;padding-bottom: 5px;font-weight: bold;margin-bottom: 20px;}
+
+/*Header Section*/
+header .call a{font-size:30px;font-family:Humanist521BT-Roman;font-weight: bold;}
+
+/*Main Menu Section*/
+.navbar{background: #be0117;}
+.navbar .nav-link{font-family:Helvetica;font-weight: lighter;color:#fff!important;}
+.navbar .nav-link:hover{color:#f1ca0b!important;}
+.navbar form{right:0px;}
+.navbar li .dropdown-menu{background: #eeeeee!important;width:15rem!important;}
+.navbar li .dropdown-menu  a{color:#000000;}
+.navbar li .dropdown-menu a:hover{background: #be0117!important;}
+.navbar li .dropdown-menu a:hover {color:#fff;}
+.navbar li:hover .dropdown-menu{display: block;}
+
+/*Enquiry Form*/
+.enquiry{border-bottom:1px solid #ccc;}
+.enquiry form button{float: right;background:#be0117;border:none;text-align: center;width:75%;}
+.enquiry form button:hover{background:#be0117;}
+.form-check label{color:#06869d;}
+.enquiry .card-img-overlay{color:#be0117;font-weight:bold;background:#eeeeee;width:150px;height:46px;top:-61px;padding:14px;left:16px;}
+
+/*activity section*/
+.activity-card { position: relative;;}
+.activity-card:hover  .image{top:-102px;transition: 1s;}
+.activity-card .image {float: left; width: 100%; position: relative; top: 0px; z-index: 99; }
+.activity-card .image img{float: left; width: 100%; }
+.activity-card .info {width: 100%; float: left; padding: 10px; background: #fff; height: 100px; position: absolute; z-index: 9; bottom: 0; left: 0;}
+.activity-card h5{font-size:16px;font-weight: bold;margin-bottom: 0px;}
+.activity-card .price span{font-size:25px;font-weight: bold;color:#f1ca0b;}
+
+/*Carousel Sectoin*/
+.hotel-carousel{float:left;width:100%;background:#e1e1e1;padding:50px 0px;}
+.hotel-carousel h5{color:#000000;font-size:16px;font-weight: bold;}
+.hotel-carousel p{color:#000000;}
+.hotel-carousel small{color:#000000;} 
+.slick-prev:before{color:#000!important;font-size:30px!important;}
+.slick-next:before{color:#000!important;font-size:30px!important;}
+.hotel-carousel .slick-prev{left:-33px;}
+
+/*Button*/
+button{background:#be0117;cursor: pointer;}
+button:hover{background:#00a4bd;transition: 1s;}
+
+/*Footer Section*/
+footer{background:#2d3f51;padding:50px 0px;}
+footer .footer-item ul li a i{margin-right:5px;}
+footer .footer-item ul li a{font-size:14px;font-family:Helvetica;color:#FFFFFF;}
+footer .footer-item ul li a i{display:none;}
+footer .footer-item ul li a:hover{color:#be0117;}
+footer .footer-item ul li a:hover i{margin-left:5px;display: block;display: inline;transition: 1s;}
+footer button{background:none;border:1px solid #00a4bd!important;font-size:14px;text-transform:uppercase;}
+.terms{border-top:3px solid #fff;}
+footer button:hover{background:#be0117;transition: 1s;border-color:#be0117!important ;color:#FFFFFF;}
+.terms ul li a:hover{color:#be0117!important;}
+
+/*Footer Popup*/
+footer .modal{top:115px!important;}
+footer .modal label{color:#fff;}
+footer .modal-content{background:#2d3f51!important;border:1px solid #00a4bd!important;}
+footer .modal button{background:#be0117;color:#fff;border:1px solid #be0117!important;}
+
+/*subdestination Sectoin*/
+.places .card-title{font-size:24px;font-family:helvetica-neue-lt-std-roman;}
+.places .card-body{background:#f0f0f0!important;}
+.places .card:hover img{transform: scale(0.9);transition: 1s;opacity: 0.7}
+
+/*Destination section*/
+.destination .card-img-overlay h3{position: relative;top:45%;transform:translate(-2%,-45%);}
+.destination .destination-padding{margin-bottom: 30px;}
+
+/*package Detail Section*/
+.sidebar i{color:#be0117;}
+.sidebar strong{color:#be0117;font-size: 16px;}
+.sidebar p{font-size:14px;}
+.sidebar-budget strong{font-weight: bold;color:#f1ca0b;font-size: 30px;line-height: 29px;}
+.packages-detail .detail-banner p{font-size:16px;font-family:OpenSans-Regular;color:#21356a;}
+.packages-detail .detail-banner h5{color:#494545!important;font-size: 20px!important;}
+.packages-detail .detail-banner h4{color:#494545!important;font-size: 18px!important;font-weight: bold;}
+.packages-detail .detail-banner h4 span{color:#494545!important;font-size: 18px!important;}
+.packages-detail .detail-banner ul li{font-size:16px;font-family:OpenSans-Regular;color:#21356a;}
+.packages-detail .detail-banner ul li strong{width: 200px;float: left;}
+.packages-detail .iternay li{color:#21356a;}
+.slick-slide img{padding:5px;}
+.packages-detail .left-content ul li i{color:#6fba41;border:1px solid #6fba41;border-radius: 100%;padding:5px;}
+
+/*Quote Form*/
+.quote-form #input-name{background:url(../img/user.png)no-repeat left center;background-position-x:10px;padding-left: 35px;}
+.quote-form #input-email{background:url(../img/email.png)no-repeat left center;background-position-x:10px;padding-left: 35px;}
+.quote-form #input-phone{background:url(../img/phone.png)no-repeat left center;background-position-x:10px;padding-left: 35px;}
+.quote-form #input-departure{background:url(../img/location.png)no-repeat left center;background-position-x:10px;padding-left: 35px;}
+.quote-form #input-destination{background:url(../img/location.png)no-repeat left center;background-position-x:10px;padding-left: 35px;}
+.quote-form #datepicker{background:url(../img/calender.png)no-repeat left center;background-position-x:10px;padding-left: 35px;}
+
+/*FlyNow Section*/
+.work h5{color:#00adef;font-size: 17px;font-weight: bold;}
+.eligibility{background:url(../img/back_image.jpg)no-repeat;background-attachment: fixed;}
+.bottom-content ul{background:#f1f9fe;padding:20px;}
+.bottom-content ul li{line-height: 10px;}
+.bottom-content ul li img{width: 25px;position: relative;top:6px;}
+.bottom-content p{font-size:16px;}
+
+/*contact section*/
+.contact input{width:75%;}
+.contact input[type=checkbox]{width:auto;}
+.contact .contact-infoheading{font-size:24px;font-weight: bold;color:#21356a;border-bottom:1px solid #989899;padding-bottom:10px;}
+.contact .contact-info i{color:#be0117;font-size:20px;margin-right:20px;}
+.contact .contact-info p{border-bottom:1px solid #989899;padding-bottom:10px;margin-bottom: 0px;padding:20px 0px;}
+
+/*Enquire now Page*/
+.enquire label{font-size:12px;}
+
+/*Flights Section*/
+.flights .flight-contact a{font-weight: bold;font-size: 16px;margin-top: 10px;}
+.flights .flight-contact a i{color:#be0117;margin-right: 10px;}
+.flights .flight-budget strong{font-size:25px;font-weight: bold;color:#f1ca0b;}
+.flights .flight-budget button{background:#fff;border:1px solid #be0117;color:#be0117;font-weight: bold; }
+.flights .hover:hover .flight-budget button{background:#be0117;color:#FFFFFF;cursor: pointer;}
+
+/*About section*/
+.about .about-info p{color:#21356a;}
+.about .about-destination li{margin-right: 0px!important;text-align: left!important;margin-right: 35px!important;}
+.about .about-destination li a{color:#1e93f7;}
+.about .social li{padding-right:10px;}
+.about .social li:hover a i{transform: scale(0.9)}
+.about .social li:first-child a i{color:#FFFFFF;background:#3b579d;border-radius: 5px;width:40px;height: 40px;line-height: 40px;font-size:30px;}
+.about .social li:nth-child(2) a i{color:#FFFFFF;background:#e12a25;border-radius: 5px;width:40px;height: 40px;line-height: 40px;font-size:30px;}
+.about .social li:nth-child(3) a i{color:#55acee;border-radius: 5px;width:40px;height: 40px;line-height: 40px;font-size:40px;}
+.about .social li:nth-child(4) a i{color:#FFFFFF;background:#bd071c;border-radius:100%;width:40px;height: 40px;line-height: 40px;font-size:30px;}
+.about .social li:nth-child(5) a i{color:#FFFFFF;background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);border-radius:10px;width:40px;height: 40px;line-height: 40px;font-size:30px;}
+
+/*Media Quiries*/
+@media screen and (min-width : 0px) and (max-width : 1200px){
+	.navbar ul li{margin-right:-16px!important;}
+}
+@media screen and (min-width : 0px) and (max-width : 992px){
+	.navbar form{right:0px;top:-3px;}
+	.enquiry .buttonlable{display:none!important;}
+	.activity-card .info{position:relative;}
+	.activity-card:hover  .image{top:0px;}
+	.enquiry form button{width:100%;}
+}
+@media screen and (min-width : 0px) and (max-width : 767px){
+	 .card-info{width:70%!important;}
+	 .card-budget{width:30%!important;}
+	
+}
+@media screen and (min-width : 0px) and (max-width : 575px){
+	header .certificate{display:none;}
+	header .logo{text-align:center;margin-bottom:10px;}
+	header .call{text-align:center;}
+	.mid{margin:15px 0px;}
+	.left{margin-bottom:15px!important;}
+	.right{margin-bottom:15px!important;}
+	.package-margin{margin-bottom:15px!important;}
+	.hotel-carousel .slick-prev {left: -17px;}
+	.hotel-carousel .slick-next {right: -5px;}
+	footer .footer-item ul{display:none;}
+	footer .footer-item button{display:none;}
+	footer .footer-item h2 i{display:block!important;}
+	footer .para{text-align:center;}
+	footer .privacy{text-align:center;}
+	footer .modal button{display: block!important;}
+	.navbar form{right:0px;top:-10px;}
+	.navbar form input{width:80%;}
+	.enquiry .buttonlable{display:none!important;}
+	.enquiry form button{float:none!important;}
+	.sidebar-budget .price{text-align: center;}
+	.sidebar-budget .pricecall{text-align: center!important;}
+	.sidebar i{display:none;}
+	.work img{display:none;}
+	.form{width:100%!important;}
+	.destination .destination-padding{margin-bottom: 15px;}
+	.about .about-certificate{margin-bottom:0px!important;}
+	.about .about-info{padding-bottom:0px!important;}
+	.sidebar-margin{margin-top:15px!important;}
+	.sidebar-margin-form{margin-top:-5px!important;}
+	.static-logo{margin-bottom:10px;}
+}
