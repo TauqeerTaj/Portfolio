@@ -1,0 +1,24 @@
+.hire-me {
+	text-align: center;
+	padding: 50px 0;
+	color: #fff;
+	border-top: 2px solid #ffd700;
+	@media only screen and (max-width: 500px) and (min-width: 320px) {
+		padding: 50px 20px;
+	}
+	h1 {
+		color: #ffd700;
+	}
+	button {
+		background-color: #393e4b;
+		border: none;
+		padding: 10px 20px;
+		border-radius: 9rem;
+		cursor: pointer;
+		a {
+			font-weight: bold;
+			color: #ffd700;
+			text-decoration: none;
+		}
+	}
+}

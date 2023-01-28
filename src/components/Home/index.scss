@@ -1,0 +1,106 @@
+.home {
+	margin-left: 60px;
+	color: #000;
+	height: 100vh;
+	overflow-y: scroll;
+	@media only screen and (max-width: 768px) and (min-width: 320px) {
+		margin-left: 0px;
+	}
+	p {
+		font-size: 20px;
+	}
+	.intro {
+		display: flex;
+		align-items: center;
+		height: 100%;
+		background-color: #c1b7bf;
+		background-image: url('../../assets//images/myImage.jpg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: right;
+		@media only screen and (max-width: 991px) and (min-width: 768px) {
+			align-items: flex-start;
+		}
+		@media only screen and (max-width: 450px) and (min-width: 320px) {
+			height: auto;
+		}
+		.intro-text {
+			padding-left: 60px;
+			@media only screen and (max-width: 768px) and (min-width: 320px) {
+				background-color: rgba(0, 0, 0, 0.2);
+				color: #fff;
+				width: 100%;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
+			@media only screen and (max-width: 500px) and (min-width: 320px) {
+				padding-left: 10px;
+			}
+			@media only screen and (max-width: 1024px) and (min-width: 768px) {
+				width: 50%;
+			}
+			h1 {
+				@media only screen and (max-width: 768px) and (min-width: 320px) {
+					color: #ffd700;
+					margin-bottom: 0px;
+				}
+			}
+			p {
+				@media only screen and (max-width: 500px) and (min-width: 320px) {
+					color: #fff;
+				}
+			}
+		}
+	}
+	.my-work {
+		margin-bottom: 50px;
+		text-align: center;
+		h1 {
+			text-align: center;
+			span {
+				border-bottom: 1px solid;
+				color: #ffd700;
+			}
+		}
+		.projects {
+			padding: 0px 50px;
+			margin-top: 20px;
+			display: flex;
+			justify-content: center;
+			ul {
+				list-style: none;
+				padding: 0;
+				li {
+					display: inline;
+					margin: 0px 10px;
+					img {
+						height: 200px;
+						@media only screen and (max-width: 768px) and (min-width: 320px) {
+							width: 100%;
+							height: auto;
+						}
+					}
+					@media only screen and (max-width: 1024px) and (min-width: 769px) {
+						display: inline-flex;
+						margin: 10px;
+					}
+					@media only screen and (max-width: 768px) and (min-width: 320px) {
+						display: block;
+						margin: 10px;
+					}
+				}
+			}
+		}
+		button {
+			background-color: #393e4b;
+			color: #ffd700;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 9rem;
+			cursor: pointer;
+			font-weight: bold;
+		}
+	}
+}
